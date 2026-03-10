@@ -1,0 +1,8 @@
+  
+  Program (invert.exe) that performs matrix inversion 3*3,
+ i.e., finding the inverse matrix and outputting the coefficients of the resulting matrix
+ matrices in the standard output stream.
+
+ You can enter:
+ 1) Via the command line: invert.exe "<input file>"
+ 2) Input via stdin: we enter the elements of the matrix line by line

@@ -1,0 +1,8 @@
+
+  A program (fill.exe) that fills contours starting from the specified starting points.
+ You can enter:
+ 1) Through the command line: fill.exe <input file> <output file>
+ 2) Input via stdin:
+   Entering characters line by line (maximum field size is 100*100):
+     '#' indicates the field boundary
+     'O' (an English capital letter) indicates the points from which the contours should be filled
