@@ -1,16 +1,18 @@
-﻿#include <iostream>
-#include "functions.h"
+﻿#include "functions.h"
+#include <iostream>
 
 int main(int cntArgs, char* args[])
 {
-    setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "");
 
-    if (cntArgs > 1)
-    {
-        return WorkFromCommandString(cntArgs, args, 1);
-    }
-    else
-    {
-        return WorkFromStdin(0);
-    }
+	if (cntArgs > 1)
+	{
+		WorkFromCommandString(cntArgs, args);
+	}
+	else
+	{
+		WorkFromStdin();
+	}
+
+	return 0;
 }
